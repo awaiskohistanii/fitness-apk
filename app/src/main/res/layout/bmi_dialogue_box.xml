@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardBackgroundColor="@color/bg_color"
+    android:background="@drawable/rounded_corner"
+    app:cardCornerRadius="@dimen/_10dp"
+    app:cardElevation="@dimen/_3dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="@dimen/_10dp"
+            app:cardElevation="@dimen/_5dp"
+            app:cardUseCompatPadding="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:cardBackgroundColor="@color/card_color"
+                    app:cardCornerRadius="@dimen/_10dp"
+                    app:cardElevation="@dimen/_3dp">
+
+                    <TextView
+                        android:id="@+id/heading"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:padding="@dimen/_10dp"
+                        android:text=""
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/_20sp"
+                        android:textStyle="bold" />
+
+                </androidx.cardview.widget.CardView>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="@dimen/_8dp">
+
+                    <TextView
+                        android:id="@+id/bmi_show"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:padding="@dimen/_8dp"
+                        android:text=""
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/_18sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/bmi_des"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:padding="@dimen/_8dp"
+                        android:text=""
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/_20sp" />
+
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:cardBackgroundColor="@color/card_color"
+                        app:cardCornerRadius="@dimen/_10dp"
+                        android:layout_marginTop="@dimen/_10dp">
+
+                        <TextView
+                            android:id="@+id/bmi_ok"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:padding="@dimen/_10dp"
+                            android:text="OK "
+                            android:background="?android:attr/selectableItemBackground"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/_20sp"
+                            android:textStyle="bold" />
+
+                    </androidx.cardview.widget.CardView>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

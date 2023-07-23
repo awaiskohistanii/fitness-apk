@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    tools:openDrawer="start">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include
+            layout="@layout/custom_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/tab"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/card_color"
+            app:tabIndicatorColor="@color/black"
+            app:tabSelectedTextColor="@color/black"
+            app:tabTextColor="@color/dark_white" />
+
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/viewpager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/navigation_drawer"
+        android:layout_width="@dimen/_180dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="@color/bg_color"
+        android:fitsSystemWindows="true"
+        android:theme="@style/NavDrawerTextStyle"
+        app:headerLayout="@layout/nav_header"
+        app:itemIconSize="@dimen/_20dp"
+        app:itemTextAppearance="@style/NavDrawerTextStyle"
+        app:itemTextColor="@color/black"
+        app:menu="@menu/nav_menu" />
+    <!--  itemTextAppearance is for for nav text  -->
+    <!--  theme is for nav group text  -->
+
+
+</androidx.drawerlayout.widget.DrawerLayout>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color"
+    android:orientation="vertical"
+    tools:context=".WeeklyChallenge.ThirtyDaysChallenge">
+
+    <include
+        layout="@layout/custom_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/full_body_exercise_card"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        app:cardBackgroundColor="#FFFFFF"
+        app:cardCornerRadius="11dp"
+        app:cardElevation="5dp"
+        app:cardUseCompatPadding="true">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_150dp">
+
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:id="@+id/start_exe_animation"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_250dp"
+                android:background="@color/bg_color"
+                android:scaleType="fitCenter"
+                app:lottie_autoPlay="true"
+                app:lottie_loop="true"
+                app:lottie_rawRes="@raw/fullbody" />
+            <TextView
+                android:id="@+id/thirty_progress_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_9dp"
+                android:layout_above="@+id/thirty_progress_bar"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:text="0%"
+                android:textSize="@dimen/_10sp" />
+            <TextView
+                android:id="@+id/thirty_days_left_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/_9dp"
+                android:layout_alignParentRight="true"
+                android:layout_above="@+id/thirty_progress_bar"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:text="07 Days Left"
+                android:textSize="@dimen/_10sp" />
+
+            <ProgressBar
+                android:id="@+id/thirty_progress_bar"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_8dp"
+                android:layout_marginRight="@dimen/_8dp"
+                android:max="100"
+                android:layout_alignParentBottom="true"
+                android:progress="0" />
+
+
+            <!--                    Progress Bar End-->
+
+
+
+        </RelativeLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+    <ListView
+        android:id="@+id/thirty_day_listview_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="LockedOrientationActivity">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/applogo_foreground"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        tools:targetApi="31">
+        <activity
+            android:name=".AgeCalculator.SaveAge"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/MyTheme"/>
+        <activity
+            android:name=".Registration.Forgot_Password"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Registration.Sign_up"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Registration.Sign_in"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/MyTheme">
+
+        </activity>
+        <activity
+            android:name=".SplashScreen"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/MyTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".AgeCalculator.AgeCalculatorDetail"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Tips.Tips"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".WeeklyChallenge.StartThirtyDayExercise"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".WeeklyChallenge.DayExercises"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".WeeklyChallenge.ThirtyDaysChallenge"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Setting.Setting"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".ExerciseDetail.Exercise_Detail"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".StartExercises.Start_Shoulder_Exercise"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".StartExercises.Start_Leg_Exercise"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".StartExercises.Start_Chest_Exercise"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".StartExercises.Start_Arm_Exercise"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".StartExercises.Start_Abs_Exercise"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Exercises.Shoulder_Workout"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Exercises.Leg_Workout"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Exercises.Chest_Workout"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Exercises.Arm_Workout"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Exercises.Abs_Workout"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/MyTheme" />
+    </application>
+
+</manifest>

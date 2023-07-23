@@ -1,0 +1,173 @@
+<resources>
+    <string name="app_name">Active Health &amp; Fitness</string>
+
+    <!--    Custom String-->
+    <string name="tips">Tips</string>
+    <!--    Drawer String-->
+    <string name="OpenDrawer">Open navigation drawer</string>
+    <string name="CloseDrawer">Close navigation drawer</string>
+    <!--    Navigation String-->
+    <string name="profile">Active Health</string>
+    <string name="home">Home</string>
+    <string name="workout">Workout</string>
+    <string name="age_cal">Age Cal</string>
+    <string name="bmi_cal">BMI Cal</string>
+    <string name="reset_all">Reset All</string>
+    <string name="setting">Setting</string>
+    <string name="communicate">Communicate</string>
+    <string name="rate_us">Rate Us</string>
+    <string name="share">Share</string>
+    <string name="feedback">Feedback</string>
+    <string name="logout">Logout</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <!--    String for Exercise-->
+    <string name="inst">INSTRUCTIONS</string>
+    <string name="start">START</string>
+
+    <string name="abs_workout">Abs Workout</string>
+    <string name="abs_des">Abs exercise can improve core strength, stability, and posture.</string>
+    <string name="abs_inst">When performing abdominal exercises, it is important to maintain proper form to avoid injury and effectively target the muscles. To do so, start by engaging your core muscles before beginning each exercise. Keep your neck and shoulders relaxed and avoid straining your lower back. Finally, breathe deeply and rhythmically throughout each repetition to help stabilize your body and maintain control.</string>
+
+    <string name="chest_workout">Chest Workout</string>
+    <string name="chest_des">Chest exercises can help improve upper body strength and increase muscle mass</string>
+    <string name="chest_inst">When performing chest exercises, it is important to maintain proper form and technique to avoid injury and maximize results. Focus on using your chest muscles to move the weight rather than relying on momentum or other muscle groups. Additionally, use a weight that is challenging but still allows you to complete the desired number of repetitions with good form.</string>
+
+    <string name="arm_workout">Arm Workout</string>
+    <string name="arm_des">"Arm exercises can improve upper body strength and reduce the risk of injury."</string>
+    <string name="arm_inst">When performing arm exercises, it is important to maintain proper form to avoid injury and maximize results. Start with a weight that allows you to complete 8_12 repetitions with proper form, and gradually increase the weight as you become stronger. Don not forget to stretch your arms before and after your workout to help prevent muscle soreness and tightness.</string>
+
+    <string name="leg_workout">Leg Workout</string>
+    <string name="leg_des">"Leg exercises can improve overall strength, balance, mobility, and bone density."</string>
+    <string name="leg_inst">When performing leg exercises, it is important to focus on proper form and technique to avoid injury and get the most out of your workout. Start with a weight that allows you to complete 8_12 repetitions with good form, and increase the weight gradually as you become stronger. Don not forget to stretch your legs before and after your workout to prevent muscle soreness and tightness.</string>
+
+    <string name="shoulder_workout">Shoulder Workout</string>
+    <string name="shoulder_des">"Shoulder exercises can help improve posture and increase upper body strength"</string>
+    <string name="shoulder_inst">When performing shoulder exercises, it is important to maintain proper form to avoid injury and maximize results. Avoid shrugging your shoulders or arching your back during movements to keep the focus on the shoulder muscles. Start with lighter weights and gradually increase as you become stronger to prevent shoulder strain or injury.</string>
+
+    <string name="full_body_workout">Full Body</string>
+    <string name="full_body_des">"Full body exercise helps to improve overall strength, endurance, flexibility, and health."</string>
+    <string name="full_body_inst">When doing a full body exercise routine, it is important to focus on compound exercises that work multiple muscle groups at once, such as squats, lunges, push-ups, and pull-ups. Start with a warm-up that includes dynamic stretches to loosen up your muscles and increase blood flow. Aim to do the routine at least two to three times a week, gradually increasing intensity and weight as you progress.</string>
+
+    <!--    Exercise Description-->
+    <string name="jumping_jack">Step 1: Begin standing with your feet together and your arms at your sides.\n\nStep 2: Jump your feet out to the sides while simultaneously raising your arms above your head.\n\nStep 3: Jump your feet back together while lowering your arms back to your sides.\n\nStep 4: Repeat the jumping motion for several repetitions, keeping your movements controlled and fluid.\n\nStep 5: To increase the difficulty, try increasing the speed or height of your jumps, or adding additional arm movements such as clapping or reaching across your body.\n</string>
+    <string name="inchworm">Step 1: Stand straight with your feet shoulder-width apart.\n\nStep 2: Bend over and touch the floor with the palms of your hands.\n\nStep 3: Walk your hands out, as far as you can while keeping your legs straight, and pause.\n\nStep 4: Walk back up to the starting position.\n\nStep 5: And repeat until the set is complete.\n\n</string>
+    <string name="reverse_crunch">Step 1: Lie on your back with your hands by your sides.\n\nStep 2: Lift your knees until your thighs and calves form a 90-degree angle and your calves are parallel to the floor.\n\nStep 3: Lift your hips and bring your knees, as far as you can, toward the chest.\n\nStep 4: Hold and then slowly return to the starting position.\n\nStep 5: And repeat until the set is complete.\n</string>
+    <string name="wide_arm_push_up">Step 1: Start in a plank position with your hands positioned wider than shoulder-width apart.\n\nStep 2: Lower your body towards the ground by bending your elbows, keeping your back straight.\n\nStep 3: Push yourself back up by straightening your arms, returning to the starting position.\n\nStep 4: Keep your core engaged and your elbows pointed outwards throughout the movement.\n\nStep 5: Repeat the exercise for your desired number of repetitions, focusing on maintaining proper form throughout the entire exercise.\n\n</string>
+    <string name="seated_abs_circle">Step 1: Sit on a mat or bench with your legs wide apart, and your knees bent.\n\nStep 2: Place your hands behind your head, with your elbows pointing outwards.\n\nStep 3: Slowly lean back until you feel your abs engage, then contract your abs and twist your torso to the left side.\n\nStep 4: Continue the twisting motion, making a full circle to the right side, and back to the starting position.\n\nStep 5: Repeat the circle motion in the opposite direction, starting with the right side and circling to the left.\n\n</string>
+    <string name="staggered_push_up">Step 1: Begin in a high plank position with your hands placed slightly wider than shoulder-width apart and your feet hip-width apart.\n\nStep 2: Move your left hand a few inches forward and your right hand a few inches back so that your hands are no longer directly under your shoulders, but rather staggered.\n\nStep 3: Lower your body towards the ground, keeping your elbows close to your sides.\n\nStep 4: Push back up to the starting position, being careful to engage your core and glutes to keep your body in a straight line.\n\nStep 5: Repeat for your desired number of repetitions, then switch your hand positions so that your right hand is forward and your left hand is back, and perform the same number of repetitions.\n\n</string>
+    <string name="squat_kicks">Step 1: Start with your feet shoulder-width apart, toes pointing forward, and arms extended in front of you.\n\nStep 2: Lower your body into a squat position, keeping your weight on your heels and your back straight.\n\nStep 3: As you rise back up, lift your right leg up and out to the side, extending your foot as if you were kicking.\n\nStep 4: Lower your right leg back down to the ground as you return to the squat position.\n\nStep 5: Repeat the squat kick motion on your left leg, alternating between legs for your desired number of repetitions.\n\n</string>
+    <string name="squat_reach">Step 1: Stand with your feet shoulder-width apart and your toes pointing forward.\n\nStep 2: Slowly bend your knees and lower your body into a squat position, keeping your back straight and your core engaged.\n\nStep 3: As you lower your body, reach your arms forward, keeping them parallel to the ground.\n\nStep 4: Hold the squat position and the arm reach for a few seconds, then slowly return to the starting position.\n\nStep 5: Repeat the squat reach exercise for several repetitions, focusing on maintaining proper form and controlled movements.\n\n</string>
+    <string name="dumbbell_punches">Step 1: Stand with your feet hip-width apart, your knees slightly bent, and hold a dumbbell in each hand.\n\nStep 2: Take a step forward with your left foot, keep your back foot at a 45-degree angle and position your body partially sideways.\n\nStep 3: Bring your arms up, so that the palms of the hands are facing the sides of the face.\n\nStep 4: Push your right arm out in a punching motion and then return to the starting position.\n\nStep 5: Switch sides and repeat.\n\n</string>
+    <string name="t_plank">Step 1: Begin in a plank position with your arms straight, shoulders directly above your wrists, and feet hip-width apart.\n\nStep 2: Lift your right arm off the ground, extending it out in front of you while simultaneously rotating your body to the left.\n\nStep 3: Hold this position for a few seconds, then return to the starting plank position.\n\nStep 4: Repeat the same movement with your left arm, extending it out in front of you while rotating your body to the right.\n\nStep 5: Alternate between extending your right and left arms, holding each position for a few seconds before returning to the starting plank position.\n\n</string>
+    <string name="shoulder_stretch">Step 1: Stand with your feet hip-width apart and your arms relaxed at your sides.\n\nStep 2: Slowly lift one arm straight up towards the ceiling, keeping your elbow straight.\n\nStep 3: Bend your lifted arm at the elbow, bringing your hand behind your head.\n\nStep 4: Use your other hand to gently pull your elbow towards the opposite side until you feel a stretch in your shoulder.\n\nStep 5: Hold the stretch for 15_30 seconds, then release and repeat on the other side.\n\n</string>
+    <string name="military_push_up">Step 1: Begin in a plank position with your hands shoulder-width apart and your feet together.\n\nStep 2: Lower your body towards the ground by bending your elbows until your chest nearly touches the floor.\n\nStep 3: Push your body back up to the starting position by extending your arms fully.\n\nStep 4: Keep your core engaged and your back straight throughout the movement.\n\nStep 5: Repeat for the desired number of repetitions, ensuring proper form and technique are maintained.\n\n</string>
+    <string name="jumping_squats">Step 1: Begin by standing with your feet shoulder-width apart and your toes pointing forward.\n\nStep 2: Lower your body down into a squat position by bending your knees and pushing your hips back.\n\nStep 3: From the bottom of the squat position, jump up explosively while keeping your arms at your sides.\n\nStep 4: Land softly on the balls of your feet and immediately lower back down into a squat position.\n\nStep 5: Repeat the movement for the desired number of reps.\n\n</string>
+    <string name="single_leg_hip">Step 1: Stand on one leg with your knee slightly bent and your foot firmly planted on the ground.\n\nStep 2: Slowly lift your other leg off the ground, keeping your knee bent and your foot flexed.\n\nStep 3: Engage your glutes and core muscles as you slowly lift your leg out to the side, keeping it straight.\n\nStep 4: Hold for a few seconds, then slowly lower your leg back down to the starting position.\n\nStep 5: Repeat the exercise on the same leg for several repetitions before switching to the other leg.\n\n</string>
+
+    <!--    Tips-->
+
+    <string name="tip1_name">Exercise Regularly</string>
+    <string name="tip1_desc">Incorporate regular physical activity into your routine to improve cardiovascular health, maintain a healthy weight, and reduce stress.</string>
+    <string name="tip2_name">Drink Plenty of Water</string>
+    <string name="tip2_desc">Staying hydrated can help regulate body temperature, prevent constipation, and improve skin health.</string>
+    <string name="tip3_name">Eat a Balanced Diet</string>
+    <string name="tip3_desc">Aim for a diet rich in whole foods, including fruits, vegetables, lean protein, and healthy fats to support overall health and well being.</string>
+    <string name="tip4_name">Get Enough Sleep</string>
+    <string name="tip4_desc">Aim for at least 7_8 hours of sleep each night to support physical and mental health, reduce inflammation, and improve brain function.</string>
+    <string name="tip5_name">Reduce Stress</string>
+    <string name="tip5_desc">Practice relaxation techniques like deep breathing, meditation, or yoga to reduce stress and improve mental well being.</string>
+    <string name="tip6_name">Limit Processed Foods</string>
+    <string name="tip6_desc">Avoid foods that are high in sugar, sodium, and unhealthy fats, as they can increase the risk of chronic diseases like obesity, diabetes, and heart disease.</string>
+    <string name="tip7_name">Take Breaks From Screens</string>
+    <string name="tip7_desc">Limit screen time to reduce eye strain, improve sleep, and decrease the risk of sedentary behavior.</string>
+    <string name="tip8_name">Practice Good Hygiene</string>
+    <string name="tip8_desc">Regularly wash your hands, practice good dental hygiene, and stay up-to-date on vaccinations to prevent illness and disease.</string>
+    <string name="tip9_name">Seek Medical Care as Needed</string>
+    <string name="tip9_desc">Regular check-ups with a healthcare provider can help catch health issues early and improve overall health outcomes.</string>
+
+
+    <!--    Zodiac-->
+
+    <string name="january_name">Capricorns (Goat)</string>
+    <string name="january_duration">December 22–January 19</string>
+
+    <string name="february_name">Aquarius (Water Bearer)</string>
+    <string name="february_duration">January 20–February 18</string>
+
+    <string name="march_name">Pisces (Fish)</string>
+    <string name="march_duration">February 19–March 20</string>
+
+    <string name="april_name">Aries (Ram)</string>
+    <string name="april_duration">March 21–April 19</string>
+
+    <string name="may_name">Taurus (Bull)</string>
+    <string name="may_duration">April 20–May 20</string>
+
+    <string name="june_name">Gemini (Twins)</string>
+    <string name="june_duration">May 21–June 21</string>
+
+    <string name="july_name">Cancer (Crab)</string>
+    <string name="july_duration">June 22–July 22</string>
+
+    <string name="august_name">Leo (Lion)</string>
+    <string name="august_duration">July 23–August 22</string>
+
+    <string name="september_name">Virgo (Virgin)</string>
+    <string name="september_duration">August 23–September 22</string>
+
+    <string name="october_name">Libra (Balance)</string>
+    <string name="october_duration">September 23–October 23</string>
+
+    <string name="november_name">Scorpius (Scorpion)</string>
+    <string name="november_duration">October 24–November 21</string>
+
+    <string name="december_name">Sagittarius (Archer)</string>
+    <string name="december_duration">November 22–December 21</string>
+
+
+    <!--    BMI-->
+    <string name="under_weight">You are underweight, you should focus on gaining weight!</string>
+    <string name="under_weight_category_duration">Underweight\n(BMI below 18.5)</string>
+    <string name="under_weight_category_tips">•Allow for proper rest and recovery time between workouts to allow the muscles to repair and grow.\n\n•Incorporate strength training exercises such as squat to build muscle mass.</string>
+
+    <string name="normal">Your weight is normal, keep up the good work!</string>
+    <string name="normal_category_duration">Normal weight\n(BMI b/w 18.5 and 24.9)</string>
+    <string name="normal_category_tips">•Maintain a balanced diet that includes a variety of nutrient-dense foods.\n\n•Incorporate cardio exercises into your routine, such as jogging, cycling, or brisk walking.</string>
+
+    <string name="over_weight">You are overweight, you should focus on losing weight!</string>
+    <string name="over_weight_category_duration">Overweight\n(BMI b/w 25 and 29.9)</string>
+    <string name="over_weight_category_tips">•Increase your physical activity levels to burn more calories and improve overall health.\n\n•Gradually increase the duration and intensity of your workouts to build stamina</string>
+
+    <string name="obese">You are obese, you should consult with a doctor or a nutritionist!</string>
+    <string name="obese_category_duration">Obese\n(BMI 30 or higher)</string>
+    <string name="obese_category_tips">•Speak with a healthcare professional to discuss weight loss strategies.\n\n•Joining a group or seeking the help of a registered dietitian or personal trainer to help you achieve your weight loss goals.</string>
+
+
+    //////////////////////// Reg ////////////////////////////////
+    <string name="log_in">LOG IN</string>
+    <string name="sign_in">Sign in</string>
+    <string name="sign_up">Sign up</string>
+    <string name="remember_me">Remember me</string>
+    <string name="forgot_pass">Forgot Password ?</string>
+    <string name="reset_pass">Reset Password</string>
+    <string name="do_not_have_Acc">Don\'t have an Account ?</string>
+    <string name="already_member">Already a Member ?</string>
+    <string name="create_account">CREATE ACCOUNT</string>
+    <string name="register">Register</string>
+
+    // Values
+    <string name="progress_0">0%</string>
+    <string name="progress_12">12%</string>
+    <string name="progress_25">25%</string>
+    <string name="progress_38">38%</string>
+    <string name="progress_50">50%</string>
+    <string name="progress_62">62%</string>
+    <string name="progress_75">75%</string>
+    <string name="progress_88">88%</string>
+    <string name="progress_100">100%</string>
+
+</resources>

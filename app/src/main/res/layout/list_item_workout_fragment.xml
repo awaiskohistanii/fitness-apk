@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/abs_exercise_card"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        app:cardBackgroundColor="#FFFFFF"
+        app:cardCornerRadius="11dp"
+        app:cardElevation="5dp"
+        app:cardUseCompatPadding="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_140dp">
+
+                <ImageView
+
+                    android:id="@+id/ex_image_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/abs" />
+
+                <TextView
+                    android:id="@+id/ex_name_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="@dimen/_5dp"
+                    android:layout_marginTop="@dimen/_5dp"
+                    android:layout_marginEnd="@dimen/_5dp"
+                    android:layout_marginBottom="@dimen/_5dp"
+                    android:padding="@dimen/_5dp"
+                    android:text="@string/abs_workout"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_16sp"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+            <!--                    Progress Bar Start-->
+
+            <ProgressBar
+                android:id="@+id/ex_progress_bar"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_8dp"
+                android:layout_marginRight="@dimen/_8dp"
+                android:max="8"
+                android:progress="0" />
+
+            <TextView
+                android:id="@+id/ex_progress_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_9dp"
+                android:text="0%"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_10sp" />
+
+            <!--                    Progress Bar End-->
+
+            <TextView
+                android:id="@+id/ex_des"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_5dp"
+                android:fontFamily="sans-serif-light"
+                android:justificationMode="inter_word"
+                android:padding="@dimen/_5dp"
+                android:text="@string/abs_des"
+                android:textColor="@color/dark_black"
+                android:textSize="@dimen/_13sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/_5dp"
+                android:layout_marginBottom="@dimen/_8dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/ex_inst_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="?android:attr/selectableItemBackground"
+                    android:padding="@dimen/_5dp"
+                    android:text="@string/inst"
+                    android:textColor="@color/card_color"
+                    android:textSize="@dimen/_12sp" />
+
+                <TextView
+                    android:id="@+id/ex_start_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_20dp"
+                    android:background="?android:attr/selectableItemBackground"
+                    android:padding="@dimen/_5dp"
+                    android:text="@string/start"
+                    android:textColor="@color/card_color"
+                    android:textSize="@dimen/_12sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

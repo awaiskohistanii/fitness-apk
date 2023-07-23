@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_170dp"
+    android:padding="@dimen/_14dp"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:id="@+id/nav_header"
+    android:background="@color/card_color">
+    <ImageView
+        android:layout_width="@dimen/_110dp"
+        android:layout_height="@dimen/_100dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/applogo"
+        android:contentDescription="header Image"/>
+    <TextView
+        android:id="@+id/profile_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/profile"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_17sp"/>
+</LinearLayout>

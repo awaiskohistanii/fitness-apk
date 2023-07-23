@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@drawable/rounded_corner_bottom_sheet"
+    android:backgroundTint="@color/bg_color"
+    tools:context=".BottomSheet.SavePopUpSheet">
+
+    <ImageView
+        android:id="@+id/close_save_bottom_sheet"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/_35dp"
+        android:src="@drawable/pop_up_line"
+        android:layout_gravity="center"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/_14dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="Name"
+            android:textSize="@dimen/_25sp"
+            android:layout_margin="@dimen/_5dp"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/cal_save_EditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Name"
+            android:singleLine="true"
+            android:maxLength="10"
+            android:padding="@dimen/_9dp"
+            android:background="@drawable/round_edittext_border"
+            android:textSize="@dimen/_15sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/bg_color"
+        android:padding="@dimen/_14dp">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="@color/notification_bar"
+            app:cardCornerRadius="@dimen/_11dp"
+            app:cardElevation="@dimen/_3dp"
+            app:cardUseCompatPadding="true">
+
+            <TextView
+                android:id="@+id/cal_save_btn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="?android:attr/selectableItemBackground"
+                android:gravity="center"
+                android:padding="@dimen/_8dp"
+                android:text="SAVE"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_18sp"
+                android:textStyle="bold" />
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+
+</LinearLayout>

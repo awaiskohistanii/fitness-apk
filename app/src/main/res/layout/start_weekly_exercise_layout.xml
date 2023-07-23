@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/bg_color"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/bg_color"
+        android:orientation="vertical">
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/weekly_start_exe_cardName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_8dp"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="@dimen/_10dp"
+            app:cardElevation="@dimen/_3dp"
+            app:cardUseCompatPadding="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/weekly_start_exe_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/_8dp"
+                    android:gravity="center"
+                    android:text=""
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_20sp"
+                    android:textStyle="bold" />
+
+
+                <ProgressBar
+                    android:id="@+id/weekly_start_progress_bar"
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_8dp"
+                    android:layout_marginRight="@dimen/_8dp"
+                    android:max="5"
+                    android:progress="0" />
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_350dp">
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/weekly_start_exe_cardView"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_300dp"
+                android:layout_margin="@dimen/_8dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="@dimen/_10dp"
+                app:cardElevation="@dimen/_3dp"
+                app:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <com.airbnb.lottie.LottieAnimationView
+                        android:id="@+id/weekly_start_exe_animation"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_250dp"
+                        android:background="@color/white"
+                        android:scaleType="fitXY"
+                        app:lottie_autoPlay="false"
+                        app:lottie_loop="true"
+                        app:lottie_rawRes="@raw/go" />
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/weekly_timer_view"
+                android:layout_width="@dimen/_210dp"
+                android:layout_height="@dimen/_80dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                app:cardBackgroundColor="@color/card_color"
+                app:cardCornerRadius="@dimen/_10dp"
+                app:cardElevation="@dimen/_3dp"
+                app:cardUseCompatPadding="true">
+
+                <TextView
+                    android:id="@+id/weekly_text_view_counter"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="sans-serif"
+                    android:text="00:00"
+                    android:textSize="40sp" />
+            </androidx.cardview.widget.CardView>
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/weekly_skip_previous_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/_10dp"
+                android:contentDescription="skip previous btn"
+                android:src="@drawable/skip_previous_foreground"
+                android:theme="@style/MyTheme"
+                app:fabCustomSize="@dimen/_50dp"
+                app:maxImageSize="@dimen/_50dp" />
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/weekly_start_pause_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/_10dp"
+                android:contentDescription="start pause btn"
+                android:src="@drawable/play_foreground"
+                android:theme="@style/MyTheme"
+                app:fabCustomSize="@dimen/_80dp"
+                app:maxImageSize="@dimen/_80dp" />
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/weekly_skip_next_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/_10dp"
+                android:contentDescription="skip next btn"
+                android:src="@drawable/skip_next_foreground"
+                android:theme="@style/MyTheme"
+                app:fabCustomSize="@dimen/_50dp"
+                app:maxImageSize="@dimen/_50dp" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

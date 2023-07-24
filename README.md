@@ -96,7 +96,6 @@ user interfaces.
 <img src="https://github.com/awaiskohistanii/fitness-apk/assets/107536933/145d9cbc-364c-4537-b283-849c756e39ef" width="200" height="400">
 <img src="https://github.com/awaiskohistanii/fitness-apk/assets/107536933/21a44980-445d-4d1b-9e68-f0b7ce3e1c2b" width="200" height="400">
 <img src="https://github.com/awaiskohistanii/fitness-apk/assets/107536933/ae6ee586-a7bf-4033-88db-0368787f28e2" width="200" height="400">
-![16]()
 <img src="https://github.com/awaiskohistanii/fitness-apk/assets/107536933/f4385bc2-10aa-4897-abf8-dfa5eb0a5498" width="200" height="400">
 <img src="https://github.com/awaiskohistanii/fitness-apk/assets/107536933/354cf122-ebec-46ae-96ba-080a2e2afb05" width="200" height="400">
 <img src="https://github.com/awaiskohistanii/fitness-apk/assets/107536933/503226ef-b522-4b80-a066-870eab5236d8" width="200" height="400">

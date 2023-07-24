@@ -32,8 +32,54 @@ Android app development. It is used to store and manage data within the app.
 animations to their Android apps. It is used to create interactive and engaging 
 user interfaces.
 
+# SOFTWARE PROCESS MODEL
+### Incremental Model
+<p align="center">
+<img src="https://github.com/awaiskohistanii/fitness-apk/assets/107536933/25fea665-5d44-4c72-83b5-e948afa23ba6" width="600" height="400">
+</p>
+
+# Design
+### Use Case Diagram
+<p align="center">
+<img src="https://github.com/awaiskohistanii/fitness-apk/assets/107536933/4533e981-870d-4e14-bf0a-2a4d1b160294" width="400" height="500">
+</p>
+
+# Design
+### Class Diagram
+<p align="center">
+<img src="https://github.com/awaiskohistanii/fitness-apk/assets/107536933/f51cffb7-1d90-41b0-a09d-3d7b325d65f5" width="400" height="500">
+</p>
+
+# Design
+### Sequence Diagram
+<p align="center">
+<img src="https://github.com/awaiskohistanii/fitness-apk/assets/107536933/57d3fbca-204f-4613-b904-0193316d47f3" width="400" height="500">
+</p>
+
+# Design
+### Activity Diagram
+<p align="center">
+<img src="https://github.com/awaiskohistanii/fitness-apk/assets/107536933/c0c9fd09-4479-4685-a46d-4e241b3d4783" width="400" height="500">
+</p>
+
+# Design
+### DFD Diagram
+<p align="center">
+<b >DFD Level-0</b> 
+</p>
+<p align="center">
+<img src="https://github.com/awaiskohistanii/fitness-apk/assets/107536933/4f013817-4b86-4ee8-a648-68f47bdde7e9" width="400" height="200">
+</p>
+<p align="center">
+<b >DFD Level-1</b> 
+</p>
+<p align="center">
+<img src="https://github.com/awaiskohistanii/fitness-apk/assets/107536933/2ef66cec-d52a-411d-a815-43e929c3ffda" width="600" height="400">
+</p>
+
 # USER MANUAL
 ## Output
+<p align="center">
 <img src="https://github.com/awaiskohistanii/fitness-apk/assets/107536933/ef7ea764-39c2-4a6d-830f-5a0d5453fa10" width="200" height="400">
 <img src="https://github.com/awaiskohistanii/fitness-apk/assets/107536933/340002d9-ca69-4ba3-b768-66c6eeba63f7" width="200" height="400">
 <img src="https://github.com/awaiskohistanii/fitness-apk/assets/107536933/0c08cdcf-65ab-4153-83d3-a3d580e20b92" width="200" height="400">
@@ -60,6 +106,7 @@ user interfaces.
 <img src="https://github.com/awaiskohistanii/fitness-apk/assets/107536933/266e29c0-f03e-482d-9ac0-28373ecb839d" width="200" height="400">
 <img src="https://github.com/awaiskohistanii/fitness-apk/assets/107536933/eafbfde7-bebe-424f-b9dc-814fed24c6ba" width="200" height="400">
 <img src="https://github.com/awaiskohistanii/fitness-apk/assets/107536933/1272d483-7da9-4d64-be39-f833adaf411c" width="200" height="400">
+</p>
 
 # CONCLUSIONS & RECOMMENDATIONS 
 The Fitness Android App you are planning to develop is a great initiative to help users 

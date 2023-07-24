@@ -47,7 +47,7 @@ user interfaces.
 # Design
 ### Class Diagram
 <p align="center">
-<img src="https://github.com/awaiskohistanii/fitness-apk/assets/107536933/f51cffb7-1d90-41b0-a09d-3d7b325d65f5" width="400" height="500">
+<img src="https://github.com/awaiskohistanii/fitness-apk/assets/107536933/c694ccb6-d69d-47f5-b821-e43847dc725a" width="400" height="500">
 </p>
 
 # Design
